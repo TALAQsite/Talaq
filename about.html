@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من نحن؟</title>
+    <!--ملف التنسيقات-->
+    <link rel="stylesheet" href="style.css">
+    <!--ملف السكربت-->
+    <script src="script.js" defer></script>
+    <!--خط الموقع-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" 
+    rel="stylesheet">
+    <!--خط الشعار-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+<!--القائمة الجانيبة-->
+        <nav>
+  <div class="logo">
+    <a href="index.html" class="logoLink">TALAQ</a></div>
+
+  <div class="menu-icon" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li class="dropdown">
+      <a href="about.html" class="about-link">من نحن؟</a>
+      <!-- زر السهم للجوال فقط -->
+      <span class="dropdown-toggle">▾</span>
+      <!-- قائمة فرعية منسدلة -->
+      <ul class="dropdown-menu">
+      <li><a href="vision.html">الرؤية</a></li>
+      <li><a href="mission.html">الرسالة</a></li>
+      <li><a href="values.html">القيم</a></li>
+      </ul>
+      </li>
+      <li><a href="index.html#info">تواصل معنا</a></li>
+
+    </ul>
+  </div>
+</nav>
+</header>
+
+<main>
+
+    <!--قسم من نحن-->
+<section id="about">
+    <h2>من نحن ؟</h2>
+    <p>نحن وكالة إبداعية رقمية انطلقت من قلب الأحساء، لنجمع بين ذائقة صناعة الأفلام والمحتوى البصري، وبين دقة البرمجة والحلول التقنية المتطورة.</p>
+    <p>لم نُوجد لنكون مجرد مزودي خدمات، بل لنكون الشريك الذي يمنحٌ أفكاركم صوتاً مسموعاً، ومنصة رقميةً رقميةً راسخة. في "تلاق"، نلتقي بطموحاتكم.. لنصنع معاً أثراً يبقى.</p>    
+</section>
+</main>
+
+<!-- التذييل -->
+<footer>
+  جميع الحقوق محفوظة © <span id="year"></span> <strong>تلاق</strong>
+</footer>
+</body>
+</html>
